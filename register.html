@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="image9.jpg">  
+    <div class="con1">
+        <h1 class="h1per">Enter your Personal Details</h1>
+        <div class="con2">
+        <div class="perdet" ng-controller="LoginController">
+            <form onsubmit="handleSubmit(event)" class="percon" ng-submit >
+        <label class="firstname" for="firstName"><b>First Name</b></label>
+        <input type="text" class="user_name" placeholder="Enter your first name" name="firstName" required>
+        <br><br>
+
+        <label class="secondname" for="secondName"><b>Second Name</b></label>
+
+        <input type="text" class="user_name2" placeholder="Enter your second name" name="secondName" required>
+        <br><br>
+
+        <label class="phno" for="phone"><b>Phone Number</b></label>
+
+        <input type="tel" class="user_pho" placeholder="Enter your phone number" name="phone" required>
+        <br><br>
+
+        <label class="dob" for="dob"><b>DOB</b></label>
+        <input type="date" class="user_dob" placeholder="Date of Birth" name="dob" required>
+        <br><br>
+
+        <label class="email" for="email"><b>E-mail</b></label>
+        <input type="email" class="user_mail" placeholder="Enter your e-mail" name="email" required>
+        <br><br>
+
+        <label class="passworddet" for="password"><b>Password</b></label>
+        <input type="password" class="user_pass" placeholder="Enter Password" name="password" required>
+        <br><br>
+       <div class="perlog1">
+        <a onclick="myFunction()" class="perlog" href="home.html">Login</a>  
+    </div>
+        <br><br>
+</form>
+
+
+<pre id="output"></pre>
+</div>
+    </div>
+
+    </div>
+    <script src="script.js">
+        
+
+</script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script:wght@400;500&display=swap');
+
+*{
+    
+    margin:0px;
+}
+.menu{
+    display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 90px;
+  
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgb(59, 120, 181);
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+    z-index: 1;
+}
+.body{
+    font-family: 'Dancing_Script','sans-serif';
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    margin-top: 100px;
+    width: 100%;
+}
+.quote{
+    font-size: 40px;
+    margin-left: 500px;
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    inline-size: 250px;
+    color: yellow;
+}
+.quote span{
+    font-family: 'Dancing Script', cursive;
+font-family: 'DM Serif Display', serif;
+
+}
+.perdet input{
+    padding-inline:12px;
+    font-family: 'Uduntu',sans-serif;
+    padding-block: 8px;
+    border:none;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+
+}
+
+.logo{
+    block-size: 90px;
+flex: 1;
+  font-size: 40px;
+  padding: 10px;
+  margin    : 0px;
+  font-family: Freestyle Script;
+  color:rgb(255, 0, 51);
+  font-size: 80px;
+  background-color: lightgray ;
+  
+}
+.menu{
+    
+    flex:1;
+    background-color: rgb(194, 165, 96);
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 50px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 21px;
+    
+  }
+
+  .menu  a:hover {
+    color: #fff;
+    background-color: #000;
+    /* text-decoration: underline; */
+  }
+  .menu a:focus{
+    outline: dashed 2px #0047ab;
+}
+.reg{
+    background-image: url("Back1.jpg");
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    text-align: center;
+    
+}
+.homenext{
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+      z-index: 1;
+     }
+.homenext a{
+   margin-right: 40px;
+}
+.homenext b{
+    margin-left: 40px;
+ }
+.form{
+    padding-top:12% ;
+    border-radius: 5px;
+    height: 40px;
+   
+
+}
+
+.search{
+   width: 300px;
+   padding-inline: 20px;
+   padding-block: 10px;
+   font-family: 'Ubuntu',sans-serif;
+   border: transparent;
+   font-size: 15px;
+   border-radius: 50px;
+}
+.search:focus{
+    box-shadow: inset 0 0 5px #0f0;
+   
+    outline: transparent;
+}
+.book{
+    background-color: white;
+    border-radius: 50px;
+    padding: 9px;
+   color:rgb(98, 16, 230);
+    text-decoration: none;
+
+}
+.book:hover{
+   
+    box-shadow: inset 300px 0 0 0 #00ff0d;
+}
+.book::after{
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+.book:hover::after{
+    transform: scale(1);
+}
+
+
+.area{
+    text-align: center;
+    color:rgb(97, 66, 94);
+    font-family: Calibri Light;
+    font-size: 50px;
+
+}
+.area1{
+    text-align: center;
+    color:rgb(97, 66, 94);
+    font-family: Calibri Light;
+    font-size: 20px;
+
+}
+.a1{
+    
+    text-align: center;
+    color:rgb(97, 66, 94);
+    font-family: Calibri Light;
+    font-size: 20px;
+    padding:80px;
+    text-decoration: none;
+}
+.card{
+    margin-left:30px;
+    border-radius: 31px;
+    box-shadow: 3px 3px 10px rgb(59, 120, 181);
+    width: 13%;
+    margin-right: 60px;
+    border-color: #000 ;
+    padding:40px;
+    font-family: 'Dancing-script';
+    
+     
+}
+.card:hover{
+    transform: skew(0,1,1,0,0,0);
+
+}
+.click{
+    background-color: rgb(122, 65, 65);
+    border-radius: 50px;
+    
+    padding: 6px;
+   
+    margin-left: 40px;
+   
+   color:white;
+   text-decoration: none;
+    
+}
+.click:hover{
+    box-shadow: inset 300px 0 0 0 #00ff0d ;
+}
+
+.imageame{
+  
+    border-radius: 50px;
+}
+
+.de1{
+   padding-left: 0%;
+    font-size: 20px;
+    font-family: Baskerville Old Face;
+}
+
+.place1{
+   
+    padding-left: 10px;
+    display: flex;
+}
+
+ 
+.logBack{
+
+    width:100%;
+    height:100vh;
+    text-align: center;
+    margin-top: 15%;
+    padding: 50px;
+    box-shadow: 3px 3px 10px rgb(8, 8, 8);
+    height: 500px; 
+    width:500px; 
+    border-radius: 50px;
+   
+}
+.user,.password{
+    color: #134a3b;
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+.logo1{
+    
+    flex: 1;
+      font-size: 40px;
+      padding: 20px;
+      margin    : 0px;
+      font-family: Freestyle Script;
+      color:rgb(255, 0, 51);
+      font-size: 80px;
+      
+      
+    }
+.container input{
+    outline-color: rgb(44, 18, 146);
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    inline-size: 160px;
+    block-size: 30px;
+    padding-left: 10px;
+}
+
+.signs{
+    margin-top: 10px;
+}
+
+
+.sign1{
+    
+    margin-left: 30px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #0000ff60 ;
+    border-radius: 50px;
+    padding: 9px;
+   color:#fff ;
+    text-decoration: none;
+    
+
+}
+
+.sign1:hover{
+    box-shadow: inset 300px 0 0 0 green;
+}
+.borlog{
+    padding-top: 20px;
+    border-radius: 20px;
+    border:5px;
+    border-style:solid;
+    width: 500px;
+    margin: 0 auto;
+    border: none;
+    background-color: #ffffff45;
+    
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+  
+}
+.logBack{
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+    
+
+.bottext{
+    border-bottom: 3px; 
+    padding-top: 8px;
+    margin-bottom: 2px;
+    text-align: center;
+    border-radius: 10px ;
+    
+    background-color: rgb(16, 195, 28);
+    block-size: 30px;
+     
+
+}
+.bottext a{
+    text-decoration: none;
+}
+.bottext2 a{
+    text-decoration: none;
+}
+
+
+.bottext2{
+   
+    margin-bottom: 2px; 
+    padding-top:8px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px ;
+    block-size: 30px;
+    background-color: rgb(39, 13, 155);
+    
+    
+
+}
+.goback {
+    text-decoration: none;
+    
+   color:#fff
+}
+
+.gohome{
+    text-decoration: none;
+    color:#fff
+}
+
+.foot{
+    
+    height:120px;
+    
+    background-color: rgb(58, 56, 57);
+}
+.footh{
+    text-decoration: none;
+    font-size: large;
+    margin-left:70px;
+    padding:20px;
+    color:#fff
+}
+.develop{
+    font-family: Cambria Math;
+    color: rgb(42, 32, 178);
+
+}
+.bgimage{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapersafari.com%2F1920x1080-hd-wallpapers-travel%2F&psig=AOvVaw1OX6AJHgXcYS1-Uey3PZmP&ust=1684659640817000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOD54dfEg_8CFQAAAAAdAAAAABAD");
+  width:100vh;
+  height:100vh; 
+ 
+  box-sizing:border-box;
+}
+.con1{
+margin-top: 40px;
+}
+.con2{
+    
+   margin-left: 500px;
+   
+}
+.perdet{
+    color:rgb(13, 54, 17);
+    font-size: 20px;
+    border-color: #000;
+    background-color: #ffffff45;
+   border-style: solid;
+    backdrop-filter: blur(10px);
+    
+   width: 500px;
+   border-color: #fff;
+    
+    border-radius: 21px;
+    margin-top:50px;
+
+   text-align: center;
+}
+.perdet input{
+    padding-inline:12px;
+    font-family: 'Uduntu',sans-serif;
+    padding-block: 8px;
+    border:none;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+
+
+}
+.firstname{
+    margin-right:50px;
+}
+.secondname{
+    margin-right:30px;
+}
+.phno{
+    margin-right:20px;
+}
+.email{
+    margin-right:50px;
+}
+.dob{
+    padding-right: 60px;
+    margin-right: 0px;
+}
+.email{
+    padding-left: 40px;
+    margin-right: 50px;
+}
+.passworddet{
+    padding-left: 30px;
+    margin-right:40px;
+}
+
+.percon{
+   margin-top: 20px;
+   
+
+}
+
+.h1per{
+   
+    text-align: center;
+    color: aliceblue;
+}
+
+.perlog1{
+    
+    margin-left: 200px;
+    border-radius: 9px;
+    padding: 3px;
+    block-size: 30px;
+    text-align: center;
+    inline-size: 70px;
+    background-color: #00ff0d;
+}
+.perlog1 a{
+    
+    text-decoration: none;
+}
+
+
+
+.about{
+    border-radius: 21px;
+    margin-top: 30px;
+   background-color:gray;
+    width: 1000px;
+}
+.about p{
+    color: #fdfffd;
+    padding:50px;
+    text-align: center;
+    font-size: 20px;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.place_det{
+    color: #fff;
+    background-color: #000;
+    margin-left: 300px;
+    border:2px solid #000;
+    border-color: #000;
+    height: 100px;
+    width: 200px;
+    border-radius: 21px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.all{
+    gap: 40px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.all img{
+    margin-left:50px;
+    border-radius: 21px;
+    margin-top: 20px;
+}
+.all2{
+    gap: 70px;
+    display: flex;
+    
+    
+    
+}
+.plan{
+    font-family: Cascadia Code;
+    font-size:25px;
+    margin-left: 100px;
+
+}
+.plans{
+    display: flex;
+}
+.offers{
+    font-family: Cascadia Code;
+    font-size:25px;
+    margin-left: 100px;
+    width: 20px;
+
+}
+
+.offer_table{
+    width: 200px;
+    margin-left: 80px;
+    justify-content: center;
+}   
+
+.offer{
+    height: 00px;
+    width: 100px;
+    display: flex;
+}
+
+.book_place{
+    padding-top: 10px;
+    border-radius: 21px;
+    inline-size: 100px;
+    block-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50%;
+    color: #fff;
+   
+    background-color: #00ff0d;
+}
+.book_place:hover{
+    box-shadow: inset 300px 0 0 0 rgb(128, 0, 0);
+}
+
+.back_place{
+    padding-top: 10px;
+    border-radius: 21px;
+    inline-size: 100px;
+    block-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50%;
+   color:#fff;
+    background-color: #081e9b;
+    text-decoration: none;
+    
+
+}
+
+.back_place:hover{
+    box-shadow: inset 300px 0 0 0 yellow;
+}
+.go4{
+    margin-left: 60px;
+    gap: 60px;
+    display: flex;
+}
+.go4 a{
+    text-decoration: none;
+
+}
+
+.rate{
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 70px ;
+}
+.rate h3{
+    padding:3px;
+    border-radius:10px;
+    color: #fff;
+    inline-size: 70px;
+    block-size: 30px;
+}
+
+
+
+
